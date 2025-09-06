@@ -51,7 +51,7 @@ export default function Navbar() {
             className="w-[64px] h-[64px] rounded-full bg-[#868686] duration-300 hover:scale-105"
           />
           <p className="text-[20px] text-white font-medium font-dublin">
-            AMSTUFF.EU
+            AMSTUFF.PL
           </p>
         </div>
         <button onClick={toggleMenu}>
@@ -85,7 +85,7 @@ export default function Navbar() {
                   className="w-[64px] h-[64px] rounded-full bg-[#868686] duration-300 hover:scale-105"
                 />
                 <p className="text-[20px] text-white font-medium font-dublin">
-                  AMSTUFF.EU
+                  AMSTUFF.PL
                 </p>
               </div>
               <div className="flex flex-col gap-6 text-[32px] font-semibold">

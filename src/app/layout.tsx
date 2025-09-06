@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "AMSTUFF.EU",
+  title: "AMSTUFF.PL",
   description:
     "Oficjalna strona Amstera. Posłuchaj na Spotify: https://open.spotify.com/artist/09yDJTGFIvWYKdU6apskTP. Śledź na Instagramie: https://www.instagram.com/amsterwth_/",
 };
