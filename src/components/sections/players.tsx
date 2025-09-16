@@ -2,44 +2,70 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
+import InstagramAvatar from "../instagramAvatar";
 
 export default function Players() {
   const players = [
     {
-      image: "/players/1.svg",
-      label: "Scoobie doo",
-      url: "https://www.instagram.com/scooby_doo93v2/",
-    },
-    {
-      image: "/players/2.svg",
-      label: "HAVANA",
-      url: "https://www.instagram.com/havana_pl/",
-    },
-    {
-      image: "/players/3.svg",
-      label: "LAFAMILIA.EU",
+      username: "lafamilia.eu",
+      label: "La Familia",
       url: "https://www.instagram.com/lafamilia.eu/",
     },
     {
-      image: "/players/4.svg",
-      label: "JULIAN PLVG",
+      username: "julian.brand_",
+      label: "Julian Pług",
       url: "https://www.instagram.com/julian.brand_/",
     },
     {
-      image: "/players/5.svg",
-      label: "HOKUS POCUS",
-      url: "https://www.instagram.com/_hokuspocus_/",
+      username: "scooby_doo93v2",
+      label: "Scoobie Doo",
+      url: "https://www.instagram.com/scooby_doo93v2/",
     },
     {
-      image: "/players/6.svg",
-      label: "TREVORPHILIPSPSG2.0",
+      username: "smokefromcali",
+      label: "Smokefromcali",
+      url: "https://www.instagram.com/smokefromcali/",
+    },
+    {
+      username: "ogpluger",
+      label: "Ogpluger",
+      url: "https://www.instagram.com/ogpluger/",
+    },
+    {
+      username: "calibroski",
+      label: "Calibroski",
+      url: "https://www.instagram.com/calibroski/",
+    },
+    {
+      username: "socod3in3",
+      label: "Socod3in3",
+      url: "https://www.instagram.com/socod3in3/",
+    },
+    {
+      username: "wiadro1312",
+      label: "Wiadro1312",
+      url: "https://www.instagram.com/wiadro1312/",
+    },
+    {
+      username: "trevorphilipsg2.0",
+      label: "Trevorphilips",
       url: "https://www.instagram.com/trevorphilipsg2.0/",
     },
     {
-      image: "/players/7.svg",
-      label: "KACPERVAPESTORE",
-      url: "https://www.instagram.com/kacpervapestore/",
+      username: "mrcarrotsticker",
+      label: "MrCarrotSticker",
+      url: "https://www.instagram.com/mrcarrotsticker/",
+    },
+    {
+      username: "exoticgod",
+      label: "ExoticGod",
+      url: "https://www.instagram.com/exoticgod/",
+    },
+    {
+      username: "_hokuspocus_",
+      label: "HokusPokus",
+      url: "https://www.instagram.com/_hokuspocus_/",
     },
   ];
   return (
@@ -64,12 +90,10 @@ export default function Players() {
           >
             <div className="w-full rounded-[15px] p-[2px] bg-gradient-to-b from-[#4C4C4C80] to-[#B2B2B2] duration-300 hover:scale-105">
               <div className="bg-[#030303] rounded-[13px] flex flex-col gap-3 items-center justify-center w-full h-full p-4">
-                <Image
-                  src={player.image}
-                  alt="player_icon"
+                <InstagramAvatar
+                  username={player.username}
                   width={64}
                   height={64}
-                  draggable="false"
                   className="pointer-events-none"
                 />
                 <div className="flex flex-col gap-2 text-center">
