@@ -3,67 +3,51 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
-import InstagramAvatar from "../instagramAvatar";
 
 export default function Players() {
   const players = [
     {
-      username: "lafamilia.eu",
+      image: "/players/lafamilia.jpg",
       label: "La Familia",
       url: "https://www.instagram.com/lafamilia.eu/",
     },
     {
-      username: "julian.brand_",
+      image: "/players/JulianBrand.jpg",
       label: "Julian Pług",
       url: "https://www.instagram.com/julian.brand_/",
     },
     {
-      username: "scooby_doo93v2",
+      image: "/players/Scooby_doo93V2.jpg",
       label: "Scoobie Doo",
       url: "https://www.instagram.com/scooby_doo93v2/",
     },
     {
-      username: "smokefromcali",
-      label: "Smokefromcali",
-      url: "https://www.instagram.com/smokefromcali/",
-    },
-    {
-      username: "ogpluger",
+      image: "/players/og_pluger.jpg",
       label: "Ogpluger",
-      url: "https://www.instagram.com/ogpluger/",
+      url: "https://www.instagram.com/og_pluger_/",
     },
     {
-      username: "calibroski",
-      label: "Calibroski",
-      url: "https://www.instagram.com/calibroski/",
-    },
-    {
-      username: "socod3in3",
+      image: "/players/Socod3in3.jpg",
       label: "Socod3in3",
       url: "https://www.instagram.com/socod3in3/",
     },
     {
-      username: "wiadro1312",
+      image: "/players/Wiadro1312.jpg",
       label: "Wiadro1312",
       url: "https://www.instagram.com/wiadro1312/",
     },
     {
-      username: "trevorphilipsg2.0",
+      image: "/players/TrevorPhilips.jpg",
       label: "Trevorphilips",
       url: "https://www.instagram.com/trevorphilipsg2.0/",
     },
     {
-      username: "mrcarrotsticker",
+      image: "/players/MrCarrotSticker.jpg",
       label: "MrCarrotSticker",
-      url: "https://www.instagram.com/mrcarrotsticker/",
+      url: "https://www.instagram.com/mrcarrotstickers/",
     },
     {
-      username: "exoticgod",
-      label: "ExoticGod",
-      url: "https://www.instagram.com/exoticgod/",
-    },
-    {
-      username: "_hokuspocus_",
+      image: "/players/HokusPokus.jpg",
       label: "HokusPokus",
       url: "https://www.instagram.com/_hokuspocus_/",
     },
@@ -90,11 +74,13 @@ export default function Players() {
           >
             <div className="w-full rounded-[15px] p-[2px] bg-gradient-to-b from-[#4C4C4C80] to-[#B2B2B2] duration-300 hover:scale-105">
               <div className="bg-[#030303] rounded-[13px] flex flex-col gap-3 items-center justify-center w-full h-full p-4">
-                <InstagramAvatar
-                  username={player.username}
+                <Image
+                  src={player.image}
+                  alt="player_icon"
                   width={64}
                   height={64}
-                  className="pointer-events-none"
+                  draggable="false"
+                  className="pointer-events-none rounded-full object-cover"
                 />
                 <div className="flex flex-col gap-2 text-center">
                   <p className="text-[20px] font-semibold text-white">
