@@ -22,11 +22,6 @@ export default function Players() {
       url: "https://www.instagram.com/scooby_doo93v2/",
     },
     {
-      image: "/players/og_pluger.jpg",
-      label: "Ogpluger",
-      url: "https://www.instagram.com/og_pluger_/",
-    },
-    {
       image: "/players/Socod3in3.jpg",
       label: "Socod3in3",
       url: "https://www.instagram.com/socod3in3/",
@@ -51,7 +46,39 @@ export default function Players() {
       label: "HokusPokus",
       url: "https://www.instagram.com/_hokuspocus_/",
     },
+    // New players added here:
+    {
+      image: "/players/spacesqquad.jpg",
+      label: "Spacesqquad",
+      url: "https://www.instagram.com/spacesqquad/",
+    },
+    {
+      image: "/players/calibros.jpg",
+      label: "Cal_ibross",
+      url: "https://www.instagram.com/cal_ibross/",
+    },
+    {
+      image: "/players/thechillcard.jpg",
+      label: "Thechillcard",
+      url: "https://www.instagram.com/thechillcard/",
+    },
+    {
+      image: "/players/fioletowaogbryza.jpg",
+      label: "Fioletowaogbryza",
+      url: "https://www.instagram.com/fioletowaogbryza/",
+    },
+    {
+      image: "/players/yourfinestplug.jpg",
+      label: "Yourfinestplug",
+      url: "https://www.instagram.com/yourfinestplug/",
+    },
+    {
+      image: "/players/hugopereira.jpg",
+      label: "Hugopereira_eu",
+      url: "https://www.instagram.com/hugopereira_eu/",
+    },
   ];
+
   return (
     <section
       id="players"
