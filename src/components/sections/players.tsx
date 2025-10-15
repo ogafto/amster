@@ -48,7 +48,7 @@ export default function Players() {
     },
     // New players added here:
     {
-      image: "/players/spacesqquad.jpg",
+      image: "/players/spacesquad.jpg",
       label: "Spacesqquad",
       url: "https://www.instagram.com/spacesqquad/",
     },
@@ -68,7 +68,7 @@ export default function Players() {
       url: "https://www.instagram.com/fioletowaogbryza/",
     },
     {
-      image: "/players/yourfinestplug.jpg",
+      image: "/players/yourfinnestplug.jpg",
       label: "Yourfinestplug",
       url: "https://www.instagram.com/yourfinestplug/",
     },
