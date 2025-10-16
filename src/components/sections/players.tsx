@@ -46,7 +46,6 @@ export default function Players() {
       label: "HokusPokus",
       url: "https://www.instagram.com/_hokuspocus_/",
     },
-    // New players added here:
     {
       image: "/players/spacesquad.jpg",
       label: "Spacesqquad",
