@@ -7,11 +7,6 @@ import { motion } from "motion/react";
 export default function Players() {
   const players = [
     {
-      image: "/players/lafamilia.jpg",
-      label: "La Familia",
-      url: "https://www.instagram.com/lafamilia.eu/",
-    },
-    {
       image: "/players/JulianBrand.jpg",
       label: "Julian Pług",
       url: "https://www.instagram.com/julian.brand_/",
@@ -37,19 +32,9 @@ export default function Players() {
       url: "https://www.instagram.com/trevorphilipsg2.0/",
     },
     {
-      image: "/players/MrCarrotSticker.jpg",
-      label: "MrCarrotSticker",
-      url: "https://www.instagram.com/mrcarrotstickers/",
-    },
-    {
       image: "/players/HokusPokus.jpg",
       label: "HokusPokus",
       url: "https://www.instagram.com/_hokuspocus_/",
-    },
-    {
-      image: "/players/calibros.jpg",
-      label: "Cal_ibross",
-      url: "https://www.instagram.com/cal_ibross/",
     },
     {
       image: "/players/fioletowaogbryza.jpg",
@@ -57,19 +42,9 @@ export default function Players() {
       url: "https://www.instagram.com/fioletowaogbryza/",
     },
     {
-      image: "/players/spaceplug.jpg",
-      label: "Space_x_plug",
-      url: "https://www.instagram.com/space_x_plug/",
-    },
-    {
       image: "/players/exoticexotic.jpg",
       label: "Exoticgod2",
       url: "https://www.instagram.com/exoticgod2/",
-    },
-    {
-      image: "/players/polandescobar.jpg",
-      label: "Polando_Escobar",
-      url: "https://www.instagram.com/polando_escobar/",
     },
   ];
 
