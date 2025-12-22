@@ -76,11 +76,6 @@ export default function Players() {
       label: "district.dispatch",
       url: "https://www.instagram.com/district.dispatch/",
     },
-    {
-      image: "/players/spacexplug.jpg",
-      label: "space_x_plug",
-      url: "https://www.instagram.com/space_x_plug/",
-    },
   ];
 
   return (
