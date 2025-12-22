@@ -7,11 +7,6 @@ import { motion } from "motion/react";
 export default function Players() {
   const players = [
     {
-      image: "/players/JulianBrand.jpg",
-      label: "Julian Pług",
-      url: "https://www.instagram.com/julian.brand_/",
-    },
-    {
       image: "/players/Scooby_doo93V2.jpg",
       label: "Scoobie Doo",
       url: "https://www.instagram.com/scooby_doo93v2/",
@@ -45,6 +40,46 @@ export default function Players() {
       image: "/players/exoticexotic.jpg",
       label: "Exoticgod2",
       url: "https://www.instagram.com/exoticgod2/",
+    },
+    {
+      image: "/players/pepe.jpg",
+      label: "bigpepepl",
+      url: "https://www.instagram.com/bigpepepl/",
+    },
+    {
+      image: "/players/gustaf.jpg",
+      label: "gustaff.exo",
+      url: "https://www.instagram.com/gustaff.exo/",
+    },
+    {
+      image: "/players/carotst.jpg",
+      label: "mrcarrotstickers",
+      url: "https://www.instagram.com/mrcarrotstickers/",
+    },
+    {
+      image: "/players/aqua.jpg",
+      label: "aqua_worldwide420",
+      url: "https://www.instagram.com/aqua_worldwide420/",
+    },
+    {
+      image: "/players/zalze.jpg",
+      label: "zalze1312",
+      url: "https://www.instagram.com/zalze1312/",
+    },
+    {
+      image: "/players/dokubka.jpg",
+      label: "dokubkka",
+      url: "https://www.instagram.com/dokubkka/",
+    },
+    {
+      image: "/players/dispatch.jpg",
+      label: "district.dispatch",
+      url: "https://www.instagram.com/district.dispatch/",
+    },
+    {
+      image: "/players/spacexplug.jpg",
+      label: "space_x_plug",
+      url: "https://www.instagram.com/space_x_plug/",
     },
   ];
 
