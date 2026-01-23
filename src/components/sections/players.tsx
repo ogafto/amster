@@ -81,6 +81,31 @@ export default function Players() {
       label: "space_x_plug",
       url: "https://www.instagram.com/space_x_plug/",
     },
+        {
+      image: "/players/lafamiliaaa.jpg",
+      label: "Lafamilia_drop",
+      url: "https://www.instagram.com/lafamilia_drop/",
+    },
+    {
+      image: "/players/greenbrothers.jpg",
+      label: "Green Brothers",
+      url: "https://www.instagram.com/zieloniwtemacie01/",
+    },
+    {
+      image: "/players/ssplug.jpg",
+      label: "SSplug83",
+      url: "https://www.instagram.com/ssplug83/",
+    },
+    {
+      image: "/players/marocc.jpg",
+      label: "Maroccinopl",
+      url: "https://www.instagram.com/maroccinopl/",
+    },
+    {
+      image: "/players/papaj.jpg",
+      label: "Maroccinopl",
+      url: "https://www.instagram.com/papaj_topshelf2.0/",
+    },
   ];
 
   return (
