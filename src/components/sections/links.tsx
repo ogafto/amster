@@ -27,6 +27,13 @@ export default function Links() {
       url: "https://growshop71.pl/",
       imgurl: "/images/grow-shop.png",
     },
+    {
+      label: "OLAVOGA.PL",
+      descript:
+        "Sklep Olavoga Styl Dla Ciebie — U nas znajdziesz szeroki wybór ubrań, które idealnie uzupełnią Twoją garderobę. Modne komplety O'la Voga idealne na co dzień i specjalne okazje. Sklep Partnerski Oryginał.",
+      url: "https://www.olavoga.pl/",
+      imgurl: "/images/olavoga.png",
+    },
   ];
   return (
     <section
