@@ -22,19 +22,9 @@ export default function Players() {
       url: "https://www.instagram.com/wiadro1312/",
     },
     {
-      image: "/players/TrevorPhilips.jpg",
-      label: "Trevorphilips",
-      url: "https://www.instagram.com/trevorphilipsg2.0/",
-    },
-    {
       image: "/players/HokusPokus.jpg",
       label: "HokusPokus",
       url: "https://www.instagram.com/_hokuspocus_/",
-    },
-    {
-      image: "/players/fioletowaogbryza.jpg",
-      label: "Fioletowaogbryza",
-      url: "https://www.instagram.com/fioletowaogbryza/",
     },
     {
       image: "/players/exoticexotic.jpg",
@@ -50,11 +40,6 @@ export default function Players() {
       image: "/players/gustaf.jpg",
       label: "gustaff.exo",
       url: "https://www.instagram.com/gustaff.exo/",
-    },
-    {
-      image: "/players/carotst.jpg",
-      label: "mrcarrotstickers",
-      url: "https://www.instagram.com/mrcarrotstickers/",
     },
     {
       image: "/players/aqua.jpg",
