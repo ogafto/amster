@@ -17,16 +17,6 @@ export default function Players() {
       url: "https://www.instagram.com/socod3in3/",
     },
     {
-      image: "/players/Wiadro1312.jpg",
-      label: "Wiadro1312",
-      url: "https://www.instagram.com/wiadro1312/",
-    },
-    {
-      image: "/players/HokusPokus.jpg",
-      label: "HokusPokus",
-      url: "https://www.instagram.com/_hokuspocus_/",
-    },
-    {
       image: "/players/exoticexotic.jpg",
       label: "Exoticgod2",
       url: "https://www.instagram.com/exoticgod2/",
