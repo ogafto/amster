@@ -52,11 +52,6 @@ export default function Players() {
       url: "https://www.instagram.com/district.dispatch/",
     },
     {
-      image: "/players/spacexplug.jpg",
-      label: "space_x_plug",
-      url: "https://www.instagram.com/space_x_plug/",
-    },
-        {
       image: "/players/lafamiliaaa.jpg",
       label: "Lafamilia_drop",
       url: "https://www.instagram.com/lafamilia_drop/",
