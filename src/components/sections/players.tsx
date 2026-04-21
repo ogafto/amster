@@ -7,16 +7,6 @@ import { motion } from "motion/react";
 export default function Players() {
   const players = [
     {
-      image: "/players/Scooby_doo93V2.jpg",
-      label: "Scoobie Doo",
-      url: "https://www.instagram.com/scooby_doo93v2/",
-    },
-    {
-      image: "/players/Socod3in3.jpg",
-      label: "Socod3in3",
-      url: "https://www.instagram.com/socod3in3/",
-    },
-    {
       image: "/players/exoticexotic.jpg",
       label: "Exoticgod2",
       url: "https://www.instagram.com/exoticgod2/",
@@ -47,34 +37,39 @@ export default function Players() {
       url: "https://www.instagram.com/dokubkka/",
     },
     {
-      image: "/players/dispatch.jpg",
-      label: "district.dispatch",
-      url: "https://www.instagram.com/district.dispatch/",
+      image: "/players/aquatt.jpg",
+      label: "aqua.world.wide",
+      url: "https://www.instagram.com/aqua.world.wide/",
     },
     {
-      image: "/players/lafamiliaaa.jpg",
-      label: "Lafamilia_drop",
-      url: "https://www.instagram.com/lafamilia_drop/",
+      image: "/players/shelftt.jpg",
+      label: "TOPSHELF CONNECTED",
+      url: "https://www.instagram.com/connectedtopshelf/",
     },
     {
-      image: "/players/greenbrothers.jpg",
-      label: "Green Brothers",
-      url: "https://www.instagram.com/zieloniwtemacie01/",
+      image: "/players/bakatt.jpg",
+      label: "bakavacci",
+      url: "https://www.instagram.com/bakavacci/",
     },
     {
-      image: "/players/ssplug.jpg",
-      label: "SSplug83",
-      url: "https://www.instagram.com/ssplug83/",
+      image: "/players/pufftt.jpg",
+      label: "fluffy_puff_admin",
+      url: "https://www.instagram.com/fluffy_puff_admin/",
     },
     {
-      image: "/players/marocc.jpg",
-      label: "Maroccinopl",
-      url: "https://www.instagram.com/maroccinopl/",
+      image: "/players/smott.jpg",
+      label: "Smokers Club",
+      url: "https://www.instagram.com/smokersclubbcnpl/",
     },
     {
-      image: "/players/papaj.jpg",
-      label: "Maroccinopl",
-      url: "https://www.instagram.com/papaj_topshelf2.0/",
+      image: "/players/saintt.jpg",
+      label: "saint.trapper",
+      url: "https://www.instagram.com/saint.trapper/",
+    },
+    {
+      image: "/players/daniel.jpg",
+      label: "danielwtyczka",
+      url: "https://www.instagram.com/danielwtyczka/",
     },
   ];
 
