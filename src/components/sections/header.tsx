@@ -49,9 +49,7 @@ export default function Header() {
         viewport={{ once: true }}
         className="text-[#848484] text-[14px] md:text-[20px] max-w-[950px]"
       >
-        Lorem ipsum dolor sit amet consectetur. Tellus leo netus tellus risus
-        leo sagittis aliquam. In sit euismod eu vitae nulla et feugiat amet
-        pellentesque.
+
       </motion.p>
       <div className="flex flex-col md:flex-row items-center justify-between max-w-[700px] mt-[30px] gap-6">
         {socials.map((social, i) => (
