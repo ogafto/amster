@@ -77,11 +77,6 @@ export default function Players() {
       url: "https://www.instagram.com/bakeszop/",
     },
     {
-      image: "/players/bakav.jpg",
-      label: "Bakavacci",
-      url: "https://www.instagram.com/bakavacci/",
-    },
-    {
       image: "/players/socmane.jpg",
       label: "soc mane",
       url: "https://www.instagram.com/soc.mane/",
