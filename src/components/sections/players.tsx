@@ -51,6 +51,41 @@ export default function Players() {
       label: "danielwtyczkaa",
       url: "https://www.instagram.com/danielwtyczka/",
     },
+    {
+      image: "/players/smartshop.jpg",
+      label: "Smart Shop",
+      url: "https://www.instagram.com/smartszopp/",
+    },
+    {
+      image: "/players/terp.jpg",
+      label: "ATS EXCLUSIVE",
+      url: "https://www.instagram.com/terpboys_ats_llc/",
+    },
+    {
+      image: "/players/sstp.jpg",
+      label: "sstheplug83",
+      url: "https://www.instagram.com/sstp83/",
+    },
+    {
+      image: "/players/kacperek.jpg",
+      label: "KACPERVAPESTORE",
+      url: "https://www.instagram.com/kacpervapestore/",
+    },
+    {
+      image: "/players/bakeszop.jpg",
+      label: "BAKESZOP",
+      url: "https://www.instagram.com/bakeszop/",
+    },
+    {
+      image: "/players/bakav.jpg",
+      label: "Bakavacci",
+      url: "https://www.instagram.com/bakavacci/",
+    },
+    {
+      image: "/players/socmane.jpg",
+      label: "soc mane",
+      url: "https://www.instagram.com/soc.mane/",
+    },
   ];
 
   return (
