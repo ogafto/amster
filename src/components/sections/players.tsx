@@ -72,7 +72,7 @@ export default function Players() {
       url: "https://www.instagram.com/kacpervapestore/",
     },
     {
-      image: "/players/bakeszop.jpg",
+      image: "/players/bake.jpg",
       label: "BAKESZOP",
       url: "https://www.instagram.com/bakeszop/",
     },
