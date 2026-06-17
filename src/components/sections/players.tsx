@@ -48,7 +48,7 @@ export default function Players() {
     },
     {
       image: "/players/daniel.jpg",
-      label: "danielwtyczka",
+      label: "danielwtyczkaa",
       url: "https://www.instagram.com/danielwtyczka/",
     },
   ];
