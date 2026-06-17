@@ -7,21 +7,6 @@ import { motion } from "motion/react";
 export default function Players() {
   const players = [
     {
-      image: "/players/exoticexotic.jpg",
-      label: "Exoticgod2",
-      url: "https://www.instagram.com/exoticgod2/",
-    },
-    {
-      image: "/players/pepe.jpg",
-      label: "bigpepepl",
-      url: "https://www.instagram.com/bigpepepl/",
-    },
-    {
-      image: "/players/gustaf.jpg",
-      label: "gustaff.exo",
-      url: "https://www.instagram.com/gustaff.exo/",
-    },
-    {
       image: "/players/aqua.jpg",
       label: "aqua_worldwide420",
       url: "https://www.instagram.com/aqua_worldwide420/",
@@ -40,11 +25,6 @@ export default function Players() {
       image: "/players/aquatt.jpg",
       label: "aqua.world.wide",
       url: "https://www.instagram.com/aqua.world.wide/",
-    },
-    {
-      image: "/players/shelftt.jpg",
-      label: "TOPSHELF CONNECTED",
-      url: "https://www.instagram.com/connectedtopshelf/",
     },
     {
       image: "/players/bakatt.jpg",
