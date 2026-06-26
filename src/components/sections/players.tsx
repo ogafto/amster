@@ -12,11 +12,6 @@ export default function Players() {
       url: "https://www.instagram.com/aqua_worldwide420/",
     },
     {
-      image: "/players/zalze.jpg",
-      label: "zalze1312",
-      url: "https://www.instagram.com/zalze1312/",
-    },
-    {
       image: "/players/dokubka.jpg",
       label: "dokubkka",
       url: "https://www.instagram.com/dokubkka/",
@@ -32,11 +27,6 @@ export default function Players() {
       url: "https://www.instagram.com/bakavacci/",
     },
     {
-      image: "/players/pufftt.jpg",
-      label: "fluffy_puff_admin",
-      url: "https://www.instagram.com/fluffy_puff_admin/",
-    },
-    {
       image: "/players/smott.jpg",
       label: "Smokers Club",
       url: "https://www.instagram.com/smokersclubbcnpl/",
@@ -45,11 +35,6 @@ export default function Players() {
       image: "/players/saintt.jpg",
       label: "saint.trapper",
       url: "https://www.instagram.com/saint.trapper/",
-    },
-    {
-      image: "/players/daniel.jpg",
-      label: "danielwtyczkaa",
-      url: "https://www.instagram.com/danielwtyczka/",
     },
     {
       image: "/players/smartshop.jpg",
